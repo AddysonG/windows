@@ -90,6 +90,16 @@ This section covers setting up Git Bash and Windows terminal.
 
 ### Neovim
 
-***TODO***
+My Neovim config requires several dependencies for the main plugins to work.
+
+1. Install the following dependencies:
+    - Install MSCV Build Tools: [this link](https://visualstudio.microsoft.com/downloads/) at the bottom of the page. If Visual Studio is already installed, this is not necessary. Certain workloads might also need to be included for the installation.
+    - Install Git Bash using instructions earlier, if not installed already.
+    - Install WinLibs for `gcc` through WinGet: `winget install BrechtSanders.WinLibs.MCF.UCRT`.
+    - Install ripgrep through WinGet: `winget install BurntSushi.ripgrep.MSVC`.
+2. Install Neovim through WinGet: `winget install Neovim.Neovim`.
+3. Git clone [my Neovim config](https://github.com/AddysonG/nvim) into `~/AppData/Local/nvim/` (this is where Neovim's config is stored on Windows).
 
 ### VSCode
+
+Refer to my [VSCode config](https://github.com/AddysonG/vscode)
